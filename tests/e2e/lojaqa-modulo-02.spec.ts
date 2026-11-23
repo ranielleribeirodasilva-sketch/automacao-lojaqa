@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Módulo 03 - Carrinho & Limite de Estoque', () => {
+test.describe('Módulo 02 - Carrinho & Limite de Estoque', () => {
   test('Deve validar o carrinho e fluxo básico', async ({ page }) => {
     // Navega para a página inicial configurada
     await page.goto('/');
